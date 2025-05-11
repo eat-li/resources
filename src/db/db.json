@@ -1,0 +1,626 @@
+{
+	"buildings": [
+		{
+			"id": 1,
+			"name": "A",
+			"type": "忠孝大楼",
+			"area": 15000,
+			"floors": 6
+		},
+		{
+			"id": 2,
+			"name": "B",
+			"type": "仁爱大楼",
+			"area": 18000,
+			"floors": 8
+		},
+		{
+			"id": 3,
+			"name": "C",
+			"type": "信义大楼",
+			"area": 12000,
+			"floors": 5
+		},
+		{
+			"id": 4,
+			"name": "D",
+			"type": "至善大楼",
+			"area": 20000,
+			"floors": 10
+		},
+		{
+			"id": 5,
+			"name": "X",
+			"type": "和平大楼",
+			"area": 9000,
+			"floors": 4
+		},
+		{
+			"id": 6,
+			"name": "Z",
+			"type": "食堂大楼",
+			"area": 25000,
+			"floors": 12
+		}
+	],
+	"electricity_consumption": [
+		{
+			"id": 1,
+			"building_id": 1,
+			"month": "2025-01",
+			"electricity": 78000,
+			"cost": 105000,
+			"peak_hours_usage": 35000
+		},
+		{
+			"id": 2,
+			"building_id": 1,
+			"month": "2025-02",
+			"electricity": 85000,
+			"cost": 115000,
+			"peak_hours_usage": 38000
+		},
+		{
+			"id": 3,
+			"building_id": 1,
+			"month": "2025-03",
+			"electricity": 98000,
+			"cost": 135000,
+			"peak_hours_usage": 45000
+		},
+		{
+			"id": 4,
+			"building_id": 1,
+			"month": "2025-04",
+			"electricity": 95000,
+			"cost": 125000,
+			"peak_hours_usage": 43000
+		},
+		{
+			"id": 5,
+			"building_id": 1,
+			"month": "2025-05",
+			"electricity": 92000,
+			"cost": 118000,
+			"peak_hours_usage": 60000
+		},
+		{
+			"id": 6,
+			"building_id": 1,
+			"month": "2025-06",
+			"electricity": 110000,
+			"cost": 145000,
+			"peak_hours_usage": 65000
+		},
+		{
+			"id": 7,
+			"building_id": 2,
+			"month": "2025-01",
+			"electricity": 65000,
+			"cost": 85000,
+			"peak_hours_usage": 30000
+		},
+		{
+			"id": 8,
+			"building_id": 2,
+			"month": "2025-02",
+			"electricity": 75000,
+			"cost": 98000,
+			"peak_hours_usage": 35000
+		},
+		{
+			"id": 9,
+			"building_id": 2,
+			"month": "2025-03",
+			"electricity": 94000,
+			"cost": 122000,
+			"peak_hours_usage": 55000
+		},
+		{
+			"id": 10,
+			"building_id": 2,
+			"month": "2025-04",
+			"electricity": 98000,
+			"cost": 128000,
+			"peak_hours_usage": 40000
+		},
+		{
+			"id": 11,
+			"building_id": 2,
+			"month": "2025-05",
+			"electricity": 88000,
+			"cost": 113000,
+			"peak_hours_usage": 38000
+		},
+		{
+			"id": 12,
+			"building_id": 2,
+			"month": "2025-06",
+			"electricity": 105000,
+			"cost": 138000,
+			"peak_hours_usage": 60000
+		},
+		{
+			"id": 13,
+			"building_id": 3,
+			"month": "2025-01",
+			"electricity": 45000,
+			"cost": 58000,
+			"peak_hours_usage": 20000
+		},
+		{
+			"id": 14,
+			"building_id": 3,
+			"month": "2025-02",
+			"electricity": 55000,
+			"cost": 72000,
+			"peak_hours_usage": 25000
+		},
+		{
+			"id": 15,
+			"building_id": 3,
+			"month": "2025-03",
+			"electricity": 88000,
+			"cost": 113000,
+			"peak_hours_usage": 55000
+		},
+		{
+			"id": 16,
+			"building_id": 3,
+			"month": "2025-04",
+			"electricity": 68000,
+			"cost": 87000,
+			"peak_hours_usage": 40000
+		},
+		{
+			"id": 17,
+			"building_id": 3,
+			"month": "2025-05",
+			"electricity": 65000,
+			"cost": 83000,
+			"peak_hours_usage": 38000
+		},
+		{
+			"id": 18,
+			"building_id": 3,
+			"month": "2025-06",
+			"electricity": 72000,
+			"cost": 93000,
+			"peak_hours_usage": 42000
+		},
+		{
+			"id": 19,
+			"building_id": 4,
+			"month": "2025-01",
+			"electricity": 120000,
+			"cost": 156000,
+			"peak_hours_usage": 70000
+		},
+		{
+			"id": 20,
+			"building_id": 4,
+			"month": "2025-02",
+			"electricity": 125000,
+			"cost": 162000,
+			"peak_hours_usage": 72000
+		},
+		{
+			"id": 21,
+			"building_id": 4,
+			"month": "2025-03",
+			"electricity": 135000,
+			"cost": 175000,
+			"peak_hours_usage": 78000
+		},
+		{
+			"id": 22,
+			"building_id": 4,
+			"month": "2025-04",
+			"electricity": 128000,
+			"cost": 166000,
+			"peak_hours_usage": 74000
+		},
+		{
+			"id": 23,
+			"building_id": 4,
+			"month": "2025-05",
+			"electricity": 132000,
+			"cost": 172000,
+			"peak_hours_usage": 76000
+		},
+		{
+			"id": 24,
+			"building_id": 4,
+			"month": "2025-06",
+			"electricity": 145000,
+			"cost": 188000,
+			"peak_hours_usage": 85000
+		},
+		{
+			"id": 25,
+			"building_id": 5,
+			"month": "2025-01",
+			"electricity": 35000,
+			"cost": 45000,
+			"peak_hours_usage": 15000
+		},
+		{
+			"id": 26,
+			"building_id": 5,
+			"month": "2025-02",
+			"electricity": 38000,
+			"cost": 49000,
+			"peak_hours_usage": 17000
+		},
+		{
+			"id": 27,
+			"building_id": 5,
+			"month": "2025-03",
+			"electricity": 42000,
+			"cost": 55000,
+			"peak_hours_usage": 19000
+		},
+		{
+			"id": 28,
+			"building_id": 5,
+			"month": "2025-04",
+			"electricity": 40000,
+			"cost": 52000,
+			"peak_hours_usage": 18000
+		},
+		{
+			"id": 29,
+			"building_id": 5,
+			"month": "2025-05",
+			"electricity": 45000,
+			"cost": 58000,
+			"peak_hours_usage": 20000
+		},
+		{
+			"id": 30,
+			"building_id": 5,
+			"month": "2025-06",
+			"electricity": 55000,
+			"cost": 72000,
+			"peak_hours_usage": 25000
+		},
+		{
+			"id": 31,
+			"building_id": 6,
+			"month": "2025-01",
+			"electricity": 150000,
+			"cost": 195000,
+			"peak_hours_usage": 85000
+		},
+		{
+			"id": 32,
+			"building_id": 6,
+			"month": "2025-02",
+			"electricity": 155000,
+			"cost": 201000,
+			"peak_hours_usage": 88000
+		},
+		{
+			"id": 33,
+			"building_id": 6,
+			"month": "2025-03",
+			"electricity": 165000,
+			"cost": 214000,
+			"peak_hours_usage": 95000
+		},
+		{
+			"id": 34,
+			"building_id": 6,
+			"month": "2025-04",
+			"electricity": 158000,
+			"cost": 205000,
+			"peak_hours_usage": 90000
+		},
+		{
+			"id": 35,
+			"building_id": 6,
+			"month": "2025-05",
+			"electricity": 162000,
+			"cost": 210000,
+			"peak_hours_usage": 92000
+		},
+		{
+			"id": 36,
+			"building_id": 6,
+			"month": "2025-06",
+			"electricity": 175000,
+			"cost": 227000,
+			"peak_hours_usage": 100000
+		}
+	],
+	"water_consumption": [
+		{
+			"id": 1,
+			"building_id": 1,
+			"month": "2025-01",
+			"water": 2800,
+			"cost": 5600,
+			"daily_avg": 90
+		},
+		{
+			"id": 2,
+			"building_id": 1,
+			"month": "2025-02",
+			"water": 3200,
+			"cost": 6400,
+			"daily_avg": 110
+		},
+		{
+			"id": 3,
+			"building_id": 1,
+			"month": "2025-03",
+			"water": 3600,
+			"cost": 7200,
+			"daily_avg": 120
+		},
+		{
+			"id": 4,
+			"building_id": 1,
+			"month": "2025-04",
+			"water": 3300,
+			"cost": 6600,
+			"daily_avg": 118
+		},
+		{
+			"id": 5,
+			"building_id": 1,
+			"month": "2025-05",
+			"water": 4500,
+			"cost": 9000,
+			"daily_avg": 150
+		},
+		{
+			"id": 6,
+			"building_id": 1,
+			"month": "2025-06",
+			"water": 5000,
+			"cost": 10000,
+			"daily_avg": 165
+		},
+		{
+			"id": 7,
+			"building_id": 2,
+			"month": "2025-01",
+			"water": 3500,
+			"cost": 7000,
+			"daily_avg": 115
+		},
+		{
+			"id": 8,
+			"building_id": 2,
+			"month": "2025-02",
+			"water": 3800,
+			"cost": 7600,
+			"daily_avg": 125
+		},
+		{
+			"id": 9,
+			"building_id": 2,
+			"month": "2025-03",
+			"water": 4200,
+			"cost": 8400,
+			"daily_avg": 140
+		},
+		{
+			"id": 10,
+			"building_id": 2,
+			"month": "2025-04",
+			"water": 3000,
+			"cost": 6000,
+			"daily_avg": 100
+		},
+		{
+			"id": 11,
+			"building_id": 2,
+			"month": "2025-05",
+			"water": 3500,
+			"cost": 7000,
+			"daily_avg": 115
+		},
+		{
+			"id": 12,
+			"building_id": 2,
+			"month": "2025-06",
+			"water": 4800,
+			"cost": 9600,
+			"daily_avg": 160
+		},
+		{
+			"id": 13,
+			"building_id": 3,
+			"month": "2025-01",
+			"water": 2200,
+			"cost": 4400,
+			"daily_avg": 70
+		},
+		{
+			"id": 14,
+			"building_id": 3,
+			"month": "2025-02",
+			"water": 2500,
+			"cost": 5000,
+			"daily_avg": 85
+		},
+		{
+			"id": 15,
+			"building_id": 3,
+			"month": "2025-03",
+			"water": 2800,
+			"cost": 5600,
+			"daily_avg": 90
+		},
+		{
+			"id": 16,
+			"building_id": 3,
+			"month": "2025-04",
+			"water": 3200,
+			"cost": 6400,
+			"daily_avg": 107
+		},
+		{
+			"id": 17,
+			"building_id": 3,
+			"month": "2025-05",
+			"water": 3800,
+			"cost": 7600,
+			"daily_avg": 123
+		},
+		{
+			"id": 18,
+			"building_id": 3,
+			"month": "2025-06",
+			"water": 3500,
+			"cost": 7000,
+			"daily_avg": 115
+		},
+		{
+			"id": 19,
+			"building_id": 4,
+			"month": "2025-01",
+			"water": 5500,
+			"cost": 11000,
+			"daily_avg": 180
+		},
+		{
+			"id": 20,
+			"building_id": 4,
+			"month": "2025-02",
+			"water": 5800,
+			"cost": 11600,
+			"daily_avg": 190
+		},
+		{
+			"id": 21,
+			"building_id": 4,
+			"month": "2025-03",
+			"water": 6200,
+			"cost": 12400,
+			"daily_avg": 205
+		},
+		{
+			"id": 22,
+			"building_id": 4,
+			"month": "2025-04",
+			"water": 5900,
+			"cost": 11800,
+			"daily_avg": 195
+		},
+		{
+			"id": 23,
+			"building_id": 4,
+			"month": "2025-05",
+			"water": 6500,
+			"cost": 13000,
+			"daily_avg": 215
+		},
+		{
+			"id": 24,
+			"building_id": 4,
+			"month": "2025-06",
+			"water": 7000,
+			"cost": 14000,
+			"daily_avg": 230
+		},
+		{
+			"id": 25,
+			"building_id": 5,
+			"month": "2025-01",
+			"water": 1800,
+			"cost": 3600,
+			"daily_avg": 60
+		},
+		{
+			"id": 26,
+			"building_id": 5,
+			"month": "2025-02",
+			"water": 2000,
+			"cost": 4000,
+			"daily_avg": 65
+		},
+		{
+			"id": 27,
+			"building_id": 5,
+			"month": "2025-03",
+			"water": 2200,
+			"cost": 4400,
+			"daily_avg": 70
+		},
+		{
+			"id": 28,
+			"building_id": 5,
+			"month": "2025-04",
+			"water": 2500,
+			"cost": 5000,
+			"daily_avg": 80
+		},
+		{
+			"id": 29,
+			"building_id": 5,
+			"month": "2025-05",
+			"water": 2800,
+			"cost": 5600,
+			"daily_avg": 95
+		},
+		{
+			"id": 30,
+			"building_id": 5,
+			"month": "2025-06",
+			"water": 3200,
+			"cost": 6400,
+			"daily_avg": 105
+		},
+		{
+			"id": 31,
+			"building_id": 6,
+			"month": "2025-01",
+			"water": 6500,
+			"cost": 13000,
+			"daily_avg": 215
+		},
+		{
+			"id": 32,
+			"building_id": 6,
+			"month": "2025-02",
+			"water": 6800,
+			"cost": 13600,
+			"daily_avg": 225
+		},
+		{
+			"id": 33,
+			"building_id": 6,
+			"month": "2025-03",
+			"water": 7200,
+			"cost": 14400,
+			"daily_avg": 240
+		},
+		{
+			"id": 34,
+			"building_id": 6,
+			"month": "2025-04",
+			"water": 6900,
+			"cost": 13800,
+			"daily_avg": 230
+		},
+		{
+			"id": 35,
+			"building_id": 6,
+			"month": "2025-05",
+			"water": 7500,
+			"cost": 15000,
+			"daily_avg": 250
+		},
+		{
+			"id": 36,
+			"building_id": 6,
+			"month": "2025-06",
+			"water": 8000,
+			"cost": 16000,
+			"daily_avg": 265
+		}
+	]
+}
